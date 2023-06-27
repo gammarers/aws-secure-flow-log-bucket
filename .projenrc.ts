@@ -16,6 +16,7 @@ const project = new awscdk.AwsCdkConstructLibrary({
   ],
   peerDeps: [
     '@yicr/aws-secure-log-bucket',
+    '@yicr/aws-secure-bucket',
   ],
   minNodeVersion: '16.0.0',
   workflowNodeVersion: '16.19.1',

@@ -1101,7 +1101,7 @@
   resolved "https://registry.yarnpkg.com/@xmldom/xmldom/-/xmldom-0.8.8.tgz#d0d11511cbc1de77e53342ad1546a4d487d6ea72"
   integrity sha512-0LNz4EY8B/8xXY86wMrQ4tz6zEHZv9ehFMJPm8u2gq5lQ71cfRKdaKyxfJAx5aUoyzx0qzgURblTisPGgz3d+Q==
 
-"@yicr/aws-secure-bucket@^0.5.11":
+"@yicr/aws-secure-bucket@0.5.11", "@yicr/aws-secure-bucket@^0.5.11":
   version "0.5.11"
   resolved "https://registry.yarnpkg.com/@yicr/aws-secure-bucket/-/aws-secure-bucket-0.5.11.tgz#36bb4df2be4fedb393b77f69ae1bf2c37cc6293f"
   integrity sha512-70oW7qs+SjGLH4TYaX4+PA3c7k6fJdYtlkVA5Ja2bIV0ai4K758sqdlZZnQbkipSdjdkheyf6ZxBBwo2BaWalw==
