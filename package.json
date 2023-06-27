@@ -1,5 +1,5 @@
 {
-  "name": "aws-secure-flow-log-bucket",
+  "name": "@yicr/aws-secure-flow-log-bucket",
   "description": "Specific AWS VPC FlowLog Bucket",
   "repository": {
     "type": "git",
@@ -84,6 +84,9 @@
   },
   "main": "lib/index.js",
   "license": "Apache-2.0",
+  "publishConfig": {
+    "access": "public"
+  },
   "version": "0.0.0",
   "jest": {
     "testMatch": [
