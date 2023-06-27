@@ -33,7 +33,7 @@ export class SecureFlowLogBucket extends SecureLogBucket {
       ],
       //resources: [`${this.bucketArn}/AWSLogs/${account}/*`],
       resources: (() => {
-        if (props?.keyPrefixes && props?.keyPrefixes.length > 0) {
+        if (props?.keyPrefixes && props.keyPrefixes.length > 0) {
           const resources: Array<string> = [];
           for (const keyPrefix of props.keyPrefixes) {
             resources.push(`${this.bucketArn}/${keyPrefix}/AWSLogs/${account}/*`);
