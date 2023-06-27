@@ -1,5 +1,6 @@
 {
   "name": "aws-secure-flow-log-bucket",
+  "description": "Specific AWS VPC FlowLog Bucket",
   "repository": {
     "type": "git",
     "url": "https://github.com/yicr/aws-secure-flow-log-bucket.git"
