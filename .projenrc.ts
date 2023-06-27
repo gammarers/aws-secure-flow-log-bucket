@@ -5,7 +5,7 @@ const project = new awscdk.AwsCdkConstructLibrary({
   cdkVersion: '2.80.0',
   typescriptVersion: '5.0.4',
   defaultReleaseBranch: 'main',
-  name: 'aws-secure-flow-log-bucket',
+  name: '@yicr/aws-secure-flow-log-bucket',
   description: 'Specific AWS VPC FlowLog Bucket',
   keywords: ['aws', 'cdk', 'aws-cdk', 's3', 'bucket', 'vpc', 'flow'],
   projenrcTs: true,
@@ -16,6 +16,7 @@ const project = new awscdk.AwsCdkConstructLibrary({
   ],
   peerDeps: [
     '@yicr/aws-secure-log-bucket',
+    '@yicr/aws-secure-bucket',
   ],
   minNodeVersion: '16.0.0',
   workflowNodeVersion: '16.19.1',
