@@ -1101,10 +1101,10 @@
   resolved "https://registry.yarnpkg.com/@xmldom/xmldom/-/xmldom-0.8.8.tgz#d0d11511cbc1de77e53342ad1546a4d487d6ea72"
   integrity sha512-0LNz4EY8B/8xXY86wMrQ4tz6zEHZv9ehFMJPm8u2gq5lQ71cfRKdaKyxfJAx5aUoyzx0qzgURblTisPGgz3d+Q==
 
-"@yicr/aws-secure-bucket@0.5.11", "@yicr/aws-secure-bucket@^0.5.11":
-  version "0.5.11"
-  resolved "https://registry.yarnpkg.com/@yicr/aws-secure-bucket/-/aws-secure-bucket-0.5.11.tgz#36bb4df2be4fedb393b77f69ae1bf2c37cc6293f"
-  integrity sha512-70oW7qs+SjGLH4TYaX4+PA3c7k6fJdYtlkVA5Ja2bIV0ai4K758sqdlZZnQbkipSdjdkheyf6ZxBBwo2BaWalw==
+"@yicr/aws-secure-bucket@0.5.12", "@yicr/aws-secure-bucket@^0.5.11":
+  version "0.5.12"
+  resolved "https://registry.yarnpkg.com/@yicr/aws-secure-bucket/-/aws-secure-bucket-0.5.12.tgz#ab86d850aa2f77757215df9c6debb0fa5d26f4ce"
+  integrity sha512-vamKB/rBjYe0B1pLp9vbiAHwRzCIQ04sASL78svR76JjbUJMVHbStIs1vhKvfYdFG+0bYqTj3hwyjobXJ2GK9Q==
 
 "@yicr/aws-secure-log-bucket@^0.6.56":
   version "0.6.56"
@@ -2290,9 +2290,9 @@ eastasianwidth@^0.2.0:
   integrity sha512-I88TYZWc9XiYHRQ4/3c5rjjfgkjhLyW2luGIheGERbNQ6OY7yTybanSpDXZa8y7VUP9YmDcYa+eyq4ca7iLqWA==
 
 electron-to-chromium@^1.4.431:
-  version "1.4.441"
-  resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.4.441.tgz#94dd9c1cbf081d83f032a4f1cd9f787e21fc24ce"
-  integrity sha512-LlCgQ8zgYZPymf5H4aE9itwiIWH4YlCiv1HFLmmcBeFYi5E+3eaIFnjHzYtcFQbaKfAW+CqZ9pgxo33DZuoqPg==
+  version "1.4.442"
+  resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.4.442.tgz#455f4c5bd6ae73afb634dcffee6f356c26c8e294"
+  integrity sha512-RkrZF//Ya+0aJq2NM3OdisNh5ZodZq1rdXOS96G8DdDgpDKqKE81yTbbQ3F/4CKm1JBPsGu1Lp/akkna2xO06Q==
 
 emittery@^0.8.1:
   version "0.8.1"
@@ -2945,9 +2945,9 @@ get-symbol-description@^1.0.0:
     get-intrinsic "^1.1.1"
 
 get-tsconfig@^4.5.0:
-  version "4.6.0"
-  resolved "https://registry.yarnpkg.com/get-tsconfig/-/get-tsconfig-4.6.0.tgz#e977690993a42f3e320e932427502a40f7af6d05"
-  integrity sha512-lgbo68hHTQnFddybKbbs/RDRJnJT5YyGy2kQzVwbq+g67X73i+5MVTval34QxGkOe9X5Ujf1UYpCaphLyltjEg==
+  version "4.6.2"
+  resolved "https://registry.yarnpkg.com/get-tsconfig/-/get-tsconfig-4.6.2.tgz#831879a5e6c2aa24fe79b60340e2233a1e0f472e"
+  integrity sha512-E5XrT4CbbXcXWy+1jChlZmrmCwd5KGx502kDCXJJ7y898TtWW9FwoG5HfOLVRKmlmDGkWN2HM9Ho+/Y8F0sJDg==
   dependencies:
     resolve-pkg-maps "^1.0.0"
 
@@ -5344,10 +5344,10 @@ progress@^2.0.3:
   resolved "https://registry.yarnpkg.com/progress/-/progress-2.0.3.tgz#7e8cf8d8f5b8f239c1bc68beb4eb78567d572ef8"
   integrity sha512-7PiHtLll5LdnKIMw100I+8xJXR5gW2QwWYkT6iJva0bXitZKa/XMrSbdmg3r2Xnaidz9Qumd0VPaMrZlF9V9sA==
 
-projen@^0.71.111:
-  version "0.71.111"
-  resolved "https://registry.yarnpkg.com/projen/-/projen-0.71.111.tgz#6499a23592323f20b307eb943ae9735ee018f786"
-  integrity sha512-w/IIHXOaFIyUsUQ6QglymnEihx2uIW1ePWBM7eK2DfCLP3ZJ2sBbRzLloAqLW09ePq0DAhCtrhjMqCxrUBVB+w==
+projen@^0.71.112:
+  version "0.71.112"
+  resolved "https://registry.yarnpkg.com/projen/-/projen-0.71.112.tgz#ca3ab2397a74600f58e499e430ea401395d1dc76"
+  integrity sha512-/zE6RypA3vweYU4uV/YuVGVtm7ibI35GelDrduWGIqOKHTHy9jHRDSnWsdNtGZWoAIDACKS0EDMZrlw5YYMKUQ==
   dependencies:
     "@iarna/toml" "^2.2.5"
     case "^1.6.3"
