@@ -1,5 +1,5 @@
 {
-  "name": "@yicr/aws-secure-flow-log-bucket",
+  "name": "@gammarer/aws-secure-flow-log-bucket",
   "description": "Specific AWS VPC FlowLog Bucket",
   "repository": {
     "type": "git",
