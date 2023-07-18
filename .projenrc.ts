@@ -29,5 +29,9 @@ const project = new awscdk.AwsCdkConstructLibrary({
     secret: 'GITHUB_TOKEN',
     allowedUsernames: ['yicr'],
   },
+  publishToPypi: {
+    distName: 'gammarer.aws-secure-flow-log-bucket',
+    module: 'gammarer.aws_secure_flow_log_bucket',
+  },
 });
 project.synth();
