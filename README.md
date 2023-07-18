@@ -7,11 +7,15 @@ Specific AWS VPC FlowLog Bucket
 ### TypeScript
 
 ```shell
-npm install @yicr/aws-secure-flow-log-bucket
+npm install @gammarer/aws-secure-flow-log-bucket
+# or
+yarn add @gammarer/aws-secure-flow-log-bucket
 ```
-or
+
+### Python
+
 ```shell
-yarn add @yicr/aws-secure-flow-log-bucket
+pip install gammarer.aws-secure-flow-log-bucket
 ```
 
 ## Example
@@ -19,11 +23,11 @@ yarn add @yicr/aws-secure-flow-log-bucket
 ### TypeScript
 
 ```shell
-npm install @yicr/aws-secure-flow-log-bucket
+npm install @gammarer/aws-secure-flow-log-bucket
 ```
 
 ```typescript
-import { SecureFlowLogBucket } from '@yicr/aws-secure-flow-log-bucket';
+import { SecureFlowLogBucket } from '@gammarer/aws-secure-flow-log-bucket';
 
 const bucket = new SecureFlowLogBucket(stack, 'SecureFlowLogBucket', {
   keyPrefixes: [
