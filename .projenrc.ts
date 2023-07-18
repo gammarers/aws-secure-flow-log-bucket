@@ -5,18 +5,17 @@ const project = new awscdk.AwsCdkConstructLibrary({
   cdkVersion: '2.80.0',
   typescriptVersion: '5.0.4',
   defaultReleaseBranch: 'main',
-  name: '@yicr/aws-secure-flow-log-bucket',
+  name: '@gammarer/aws-secure-flow-log-bucket',
   description: 'Specific AWS VPC FlowLog Bucket',
   keywords: ['aws', 'cdk', 'aws-cdk', 's3', 'bucket', 'vpc', 'flow'],
   projenrcTs: true,
   repositoryUrl: 'https://github.com/yicr/aws-secure-flow-log-bucket.git',
   npmAccess: javascript.NpmAccess.PUBLIC,
   deps: [
-    '@yicr/aws-secure-log-bucket',
+    '@gammarer/aws-secure-log-bucket',
   ],
   peerDeps: [
-    '@yicr/aws-secure-log-bucket',
-    '@yicr/aws-secure-bucket',
+    '@gammarer/aws-secure-log-bucket',
   ],
   minNodeVersion: '16.0.0',
   workflowNodeVersion: '16.19.1',
@@ -29,6 +28,10 @@ const project = new awscdk.AwsCdkConstructLibrary({
   autoApproveOptions: {
     secret: 'GITHUB_TOKEN',
     allowedUsernames: ['yicr'],
+  },
+  publishToPypi: {
+    distName: 'gammarer.aws-secure-flow-log-bucket',
+    module: 'gammarer.aws_secure_flow_log_bucket',
   },
 });
 project.synth();
