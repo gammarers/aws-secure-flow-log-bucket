@@ -1181,6 +1181,7 @@ const secureFlowLogBucketProps: SecureFlowLogBucketProps = { ... }
 | --- | --- | --- |
 | <code><a href="#@gammarer/aws-secure-flow-log-bucket.SecureFlowLogBucketProps.property.bucketName">bucketName</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@gammarer/aws-secure-flow-log-bucket.SecureFlowLogBucketProps.property.changeClassTransition">changeClassTransition</a></code> | <code>@gammarer/aws-secure-log-bucket.StorageClassTransitionProperty</code> | *No description.* |
+| <code><a href="#@gammarer/aws-secure-flow-log-bucket.SecureFlowLogBucketProps.property.objectOwnership">objectOwnership</a></code> | <code>@gammarer/aws-secure-bucket.SecureObjectOwnership</code> | *No description.* |
 | <code><a href="#@gammarer/aws-secure-flow-log-bucket.SecureFlowLogBucketProps.property.keyPrefixes">keyPrefixes</a></code> | <code>string[]</code> | *No description.* |
 
 ---
@@ -1202,6 +1203,16 @@ public readonly changeClassTransition: StorageClassTransitionProperty;
 ```
 
 - *Type:* @gammarer/aws-secure-log-bucket.StorageClassTransitionProperty
+
+---
+
+##### `objectOwnership`<sup>Optional</sup> <a name="objectOwnership" id="@gammarer/aws-secure-flow-log-bucket.SecureFlowLogBucketProps.property.objectOwnership"></a>
+
+```typescript
+public readonly objectOwnership: SecureObjectOwnership;
+```
+
+- *Type:* @gammarer/aws-secure-bucket.SecureObjectOwnership
 
 ---
 
