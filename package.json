@@ -36,6 +36,7 @@
     "organization": false
   },
   "devDependencies": {
+    "@gammarer/aws-secure-bucket": "0.11.3",
     "@types/jest": "^27",
     "@types/node": "^16",
     "@typescript-eslint/eslint-plugin": "^5",
@@ -61,7 +62,8 @@
     "typescript": "5.0.4"
   },
   "peerDependencies": {
-    "@gammarer/aws-secure-log-bucket": "^0.10.6",
+    "@gammarer/aws-secure-bucket": "^0.11.3",
+    "@gammarer/aws-secure-log-bucket": "^0.10.7",
     "aws-cdk-lib": "^2.80.0",
     "constructs": "^10.0.5"
   },
