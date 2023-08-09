@@ -12,10 +12,11 @@ const project = new awscdk.AwsCdkConstructLibrary({
   repositoryUrl: 'https://github.com/yicr/aws-secure-flow-log-bucket.git',
   npmAccess: javascript.NpmAccess.PUBLIC,
   deps: [
-    '@gammarer/aws-secure-log-bucket',
+    '@gammarer/aws-secure-log-bucket@^0.11.1',
   ],
   peerDeps: [
     '@gammarer/aws-secure-log-bucket',
+    '@gammarer/aws-secure-bucket',
   ],
   minNodeVersion: '16.0.0',
   workflowNodeVersion: '16.19.1',
@@ -32,6 +33,12 @@ const project = new awscdk.AwsCdkConstructLibrary({
   publishToPypi: {
     distName: 'gammarer.aws-secure-flow-log-bucket',
     module: 'gammarer.aws_secure_flow_log_bucket',
+  },
+  publishToMaven: {
+    mavenGroupId: 'com.gammarer',
+    javaPackage: 'com.gammarer.cdk.aws.secure_flow_log_bucket',
+    mavenArtifactId: 'aws-secure-flow-log-bucket',
+    mavenEndpoint: 'https://s01.oss.sonatype.org',
   },
 });
 project.synth();
