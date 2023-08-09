@@ -18,6 +18,17 @@ yarn add @gammarer/aws-secure-flow-log-bucket
 pip install gammarer.aws-secure-flow-log-bucket
 ```
 
+### Java
+
+Add the following to pom.xml:
+
+```xml
+<dependency>
+  <groupId>com.gammarer</groupId>
+  <artifactId>aws-secure-flow-log-bucket</artifactId>
+</dependency>
+```
+
 ## Example
 
 ### TypeScript
