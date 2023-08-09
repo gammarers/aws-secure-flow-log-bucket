@@ -17,6 +17,7 @@
     "eslint": "npx projen eslint",
     "package": "npx projen package",
     "package-all": "npx projen package-all",
+    "package:java": "npx projen package:java",
     "package:js": "npx projen package:js",
     "package:python": "npx projen package:python",
     "post-compile": "npx projen post-compile",
@@ -137,6 +138,13 @@
   "jsii": {
     "outdir": "dist",
     "targets": {
+      "java": {
+        "package": "com.gammarer.cdk.aws.secure_flow_log_bucket",
+        "maven": {
+          "groupId": "com.gammarer",
+          "artifactId": "aws-secure-flow-log-bucket"
+        }
+      },
       "python": {
         "distName": "gammarer.aws-secure-flow-log-bucket",
         "module": "gammarer.aws_secure_flow_log_bucket"

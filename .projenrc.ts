@@ -34,5 +34,11 @@ const project = new awscdk.AwsCdkConstructLibrary({
     distName: 'gammarer.aws-secure-flow-log-bucket',
     module: 'gammarer.aws_secure_flow_log_bucket',
   },
+  publishToMaven: {
+    mavenGroupId: 'com.gammarer',
+    javaPackage: 'com.gammarer.cdk.aws.secure_flow_log_bucket',
+    mavenArtifactId: 'aws-secure-flow-log-bucket',
+    mavenEndpoint: 'https://s01.oss.sonatype.org',
+  },
 });
 project.synth();
