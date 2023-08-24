@@ -69,7 +69,7 @@
     "constructs": "^10.0.5"
   },
   "dependencies": {
-    "@gammarer/aws-secure-log-bucket": "^0.11.1"
+    "@gammarer/aws-secure-log-bucket": "~0.12.4"
   },
   "keywords": [
     "aws",
