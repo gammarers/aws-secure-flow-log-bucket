@@ -6,7 +6,6 @@
     },
     {
       "name": "@types/jest",
-      "version": "^27",
       "type": "build"
     },
     {
@@ -52,13 +51,12 @@
       "type": "build"
     },
     {
-      "name": "jest-junit",
-      "version": "^15",
+      "name": "jest",
       "type": "build"
     },
     {
-      "name": "jest",
-      "version": "^27",
+      "name": "jest-junit",
+      "version": "^15",
       "type": "build"
     },
     {
@@ -75,12 +73,12 @@
     },
     {
       "name": "jsii-rosetta",
-      "version": "1.x",
+      "version": "~5.0.0",
       "type": "build"
     },
     {
       "name": "jsii",
-      "version": "1.x",
+      "version": "~5.0.0",
       "type": "build"
     },
     {
@@ -99,7 +97,6 @@
     },
     {
       "name": "ts-jest",
-      "version": "^27",
       "type": "build"
     },
     {
@@ -108,18 +105,8 @@
     },
     {
       "name": "typescript",
-      "version": "5.0.4",
+      "version": "4.9.x",
       "type": "build"
-    },
-    {
-      "name": "@types/babel__traverse",
-      "version": "7.18.2",
-      "type": "override"
-    },
-    {
-      "name": "@types/prettier",
-      "version": "2.6.0",
-      "type": "override"
     },
     {
       "name": "@gammarer/aws-secure-bucket",
@@ -141,7 +128,7 @@
     },
     {
       "name": "@gammarer/aws-secure-log-bucket",
-      "version": "^0.11.1",
+      "version": "0.12.*",
       "type": "runtime"
     }
   ],
