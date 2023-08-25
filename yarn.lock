@@ -359,17 +359,17 @@
   resolved "https://registry.yarnpkg.com/@eslint/js/-/js-8.47.0.tgz#5478fdf443ff8158f9de171c704ae45308696c7d"
   integrity sha512-P6omY1zv5MItm93kLM8s2vr1HICJH8v0dvddDhysbIuZ+vcjOHg5Zbkf1mTkcmi2JA9oBG2anOkRnW8WJTS8Og==
 
-"@gammarer/aws-secure-bucket@0.12.*", "@gammarer/aws-secure-bucket@0.12.2":
-  version "0.12.2"
-  resolved "https://registry.yarnpkg.com/@gammarer/aws-secure-bucket/-/aws-secure-bucket-0.12.2.tgz#e2bdf663a8d15575fa25195f1720448048558d77"
-  integrity sha512-eLH0PfImsw73a9d9bQPZYo5H3vUU291GQmAMjaLasPh0WFpsTKCIQMZr4aPDJPN2nivTOBcngfR9zP9le2F3WQ==
+"@gammarer/aws-secure-bucket@0.12.5", "@gammarer/aws-secure-bucket@~0.12":
+  version "0.12.5"
+  resolved "https://registry.yarnpkg.com/@gammarer/aws-secure-bucket/-/aws-secure-bucket-0.12.5.tgz#ae98801c2828399506c0dd4303a0e0afe05f3a03"
+  integrity sha512-Du9+mDu8VqfoYisZBuek/ZUhgUBNa/0/GK80OEFLd9Z4pkWppqV2kMQK+raVsEfVeVjUios2OMvzS7Rbc8mFVQ==
 
-"@gammarer/aws-secure-log-bucket@0.12.*":
-  version "0.12.4"
-  resolved "https://registry.yarnpkg.com/@gammarer/aws-secure-log-bucket/-/aws-secure-log-bucket-0.12.4.tgz#544a9da26ebe07649958005b892c15b1048e2beb"
-  integrity sha512-333iUMIPtaNHu6jqVFblhIMnyB2LhPfi928HzYXLGIV58EKErpXo5wDTiKevxGAta4Qc6Zcpl0dD35IV0NGzQw==
+"@gammarer/aws-secure-log-bucket@~0.12":
+  version "0.12.7"
+  resolved "https://registry.yarnpkg.com/@gammarer/aws-secure-log-bucket/-/aws-secure-log-bucket-0.12.7.tgz#d911bf0b6680bc3a0a4a56206a36a04fc5419b42"
+  integrity sha512-lAj9sFCccYDOuPfiVnrQ2HlCUClW3LquhllA78A4Hq1xZto2CNacIssm8I5HfS2+TQVdbTGXK4/yLzrsMY4NZw==
   dependencies:
-    "@gammarer/aws-secure-bucket" "0.12.*"
+    "@gammarer/aws-secure-bucket" "~0.12"
 
 "@humanwhocodes/config-array@^0.11.10":
   version "0.11.10"
@@ -979,9 +979,9 @@
   integrity sha512-jhuKLIRrhvCPLqwPcx6INqmKeiA5EWrsCOPhrlFSrbrmU4ZMPjj5Ul/oLCMDO98XRUIwVm78xICz4EPCektzeQ==
 
 "@types/node@*":
-  version "20.5.4"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-20.5.4.tgz#4666fb40f9974d60c53c4ff554315860ba4feab8"
-  integrity sha512-Y9vbIAoM31djQZrPYjpTLo0XlaSwOIsrlfE3LpulZeRblttsLQRFRlBAppW0LOxyT3ALj2M5vU1ucQQayQH3jA==
+  version "20.5.6"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-20.5.6.tgz#5e9aaa86be03a09decafd61b128d6cec64a5fe40"
+  integrity sha512-Gi5wRGPbbyOTX+4Y2iULQ27oUPrefaB0PxGQJnfyWN3kvEDGM3mIB5M/gQLmitZf7A9FmLeaqxD3L1CXpm3VKQ==
 
 "@types/node@^18":
   version "18.17.11"
@@ -1626,9 +1626,9 @@ camelcase@^7.0.1:
   integrity sha512-xlx1yCK2Oc1APsPXDL2LdlNP6+uu8OCDdhOBSVT279M/S+y75O30C2VuD8T2ogdePBBl7PfPF4504tnLgX3zfw==
 
 caniuse-lite@^1.0.30001517:
-  version "1.0.30001522"
-  resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30001522.tgz#44b87a406c901269adcdb834713e23582dd71856"
-  integrity sha512-TKiyTVZxJGhsTszLuzb+6vUZSjVOAhClszBr2Ta2k9IwtNBT/4dzmL6aywt0HCgEZlmwJzXJd8yNiob6HgwTRg==
+  version "1.0.30001523"
+  resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30001523.tgz#b838f70b1a98c556776b998fafb47d2b64146d4f"
+  integrity sha512-I5q5cisATTPZ1mc588Z//pj/Ox80ERYDfR71YnvY7raS/NOk8xXlZcB0sF7JdqaV//kOaa6aus7lRfpdnt1eBA==
 
 case@1.6.3, case@^1.6.3:
   version "1.6.3"
@@ -2269,9 +2269,9 @@ eastasianwidth@^0.2.0:
   integrity sha512-I88TYZWc9XiYHRQ4/3c5rjjfgkjhLyW2luGIheGERbNQ6OY7yTybanSpDXZa8y7VUP9YmDcYa+eyq4ca7iLqWA==
 
 electron-to-chromium@^1.4.477:
-  version "1.4.501"
-  resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.4.501.tgz#05e97f61d109dc7a5ab246a81bb3fb892edfe954"
-  integrity sha512-NCF5hZUg73MEP0guvIM+BjPs9W07UeAuc5XCNqRZZTKJxLjE0ZS/Zo5UsV8bbs2y/jeKRPFPzdWdBfOGEZTXKg==
+  version "1.4.502"
+  resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.4.502.tgz#531cda8774813d97d6cfa2fb9d8ee3e2c75851fa"
+  integrity sha512-xqeGw3Gr6o3uyHy/yKjdnDQHY2RQvXcGC2cfHjccK1IGkH6cX1WQBN8EeC/YpwPhGkBaikDTecJ8+ssxSVRQlw==
 
 emittery@^0.8.1:
   version "0.8.1"
