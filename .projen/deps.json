@@ -1,10 +1,6 @@
 {
   "dependencies": [
     {
-      "name": "@gammarer/aws-secure-bucket",
-      "type": "build"
-    },
-    {
       "name": "@types/jest",
       "type": "build"
     },
@@ -110,10 +106,12 @@
     },
     {
       "name": "@gammarer/aws-secure-bucket",
+      "version": "~0.12.4",
       "type": "peer"
     },
     {
       "name": "@gammarer/aws-secure-log-bucket",
+      "version": "~0.12.6",
       "type": "peer"
     },
     {
@@ -127,8 +125,13 @@
       "type": "peer"
     },
     {
+      "name": "@gammarer/aws-secure-bucket",
+      "version": "~0.12.4",
+      "type": "runtime"
+    },
+    {
       "name": "@gammarer/aws-secure-log-bucket",
-      "version": "~0.12",
+      "version": "~0.12.6",
       "type": "runtime"
     }
   ],
