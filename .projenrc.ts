@@ -42,5 +42,9 @@ const project = new awscdk.AwsCdkConstructLibrary({
     mavenArtifactId: 'aws-secure-flow-log-bucket',
     mavenEndpoint: 'https://s01.oss.sonatype.org',
   },
+  publishToNuget: {
+    dotNetNamespace: 'Gammarer.CDK.AWS',
+    packageId: 'Gammarer.CDK.AWS.SecureFlowLogBucket',
+  },
 });
 project.synth();
