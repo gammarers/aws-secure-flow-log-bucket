@@ -359,17 +359,17 @@
   resolved "https://registry.yarnpkg.com/@eslint/js/-/js-8.49.0.tgz#86f79756004a97fa4df866835093f1df3d03c333"
   integrity sha512-1S8uAY/MTJqVx0SC4epBq+N2yhuwtNwLbJYNZyhL2pO1ZVKn5HFXav5T41Ryzy9K9V7ZId2JB2oy/W4aCd9/2w==
 
-"@gammarer/aws-secure-bucket@~0.12.4":
-  version "0.12.7"
-  resolved "https://registry.yarnpkg.com/@gammarer/aws-secure-bucket/-/aws-secure-bucket-0.12.7.tgz#0cfae45077791a9ec3153d9c82be76135c311bee"
-  integrity sha512-uV1Suy5+wE9YCIqGCIDIiYc9XmjN50HzCqTOMmS7PcXByyroIy9QbFgg4FznWmO+eipHF+iDXVYv7JDSSULixA==
+"@gammarer/aws-secure-bucket@~0.13.0":
+  version "0.13.0"
+  resolved "https://registry.yarnpkg.com/@gammarer/aws-secure-bucket/-/aws-secure-bucket-0.13.0.tgz#8bd3a60f018145a6d3bf0bb4a1a010304c6066c5"
+  integrity sha512-bOdNgHW1fqWNLSFAPCCtzDkuvvpc2G9YdoZgD6SsBBDnJz20p9nhOM+GzGyipy+poPJ25eUM6r/xOVCgFN2JBQ==
 
-"@gammarer/aws-secure-log-bucket@~0.12.6":
-  version "0.12.10"
-  resolved "https://registry.yarnpkg.com/@gammarer/aws-secure-log-bucket/-/aws-secure-log-bucket-0.12.10.tgz#766cc2d52e034e56f1c9a1bd406b2f93bd0bd750"
-  integrity sha512-wzA++5KBJjrxpZJh5bz+l1ICjhiWnPCDclO0a+HOQbT+124ujDaAVRK6nrMkmpt6I9NUVnZEAbIp5k021qLCFg==
+"@gammarer/aws-secure-log-bucket@~0.13.0":
+  version "0.13.0"
+  resolved "https://registry.yarnpkg.com/@gammarer/aws-secure-log-bucket/-/aws-secure-log-bucket-0.13.0.tgz#a12fb5b7e87c5c35a125495230e263759e69f965"
+  integrity sha512-NKTJrIt8ShqDiX1owaMkDhcqufh37c+ZaheRwhCWs/bDVErx4ba7UHRc70Yd0ZktqemLdTkDzEV6D4vmKibS1Q==
   dependencies:
-    "@gammarer/aws-secure-bucket" "~0.12.4"
+    "@gammarer/aws-secure-bucket" "~0.13.0"
 
 "@humanwhocodes/config-array@^0.11.11":
   version "0.11.11"
@@ -991,10 +991,10 @@
   resolved "https://registry.yarnpkg.com/@types/node/-/node-20.6.0.tgz#9d7daa855d33d4efec8aea88cd66db1c2f0ebe16"
   integrity sha512-najjVq5KN2vsH2U/xyh2opaSEz6cZMR2SetLIlxlj08nOcmPOemJmUK2o4kUzfLqfrWE0PIrNeE16XhYDd3nqg==
 
-"@types/node@^18":
-  version "18.17.15"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-18.17.15.tgz#31301a273b9ca7d568fe6d1c35ae52e0fb3f8d6a"
-  integrity sha512-2yrWpBk32tvV/JAd3HNHWuZn/VDN1P+72hWirHnvsvTGSqbANi+kSeuQR9yAHnbvaBvHDsoTdXV0Fe+iRtHLKA==
+"@types/node@^16":
+  version "16.18.51"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-16.18.51.tgz#f56210dd99e6fd51d8765488c6b8e5684ca47039"
+  integrity sha512-LKA7ZhY30I8PiUOzBzhtnIULQTACpiEpPXLiYMWyS+tPAORf+rmXUadHZXB/KFrFyMjeHeKc1GFvLd+3f7LE3w==
 
 "@types/normalize-package-data@^2.4.0":
   version "2.4.1"
