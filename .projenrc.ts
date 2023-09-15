@@ -10,7 +10,7 @@ const project = new awscdk.AwsCdkConstructLibrary({
   description: 'Specific AWS VPC FlowLog Bucket',
   keywords: ['aws', 'cdk', 'aws-cdk', 's3', 'bucket', 'vpc', 'flow'],
   projenrcTs: true,
-  repositoryUrl: 'https://github.com/yicr/aws-secure-flow-log-bucket.git',
+  repositoryUrl: 'https://github.com/gammarer/aws-secure-flow-log-bucket.git',
   npmAccess: javascript.NpmAccess.PUBLIC,
   deps: [
     '@gammarer/aws-secure-log-bucket@~0.12.6',
