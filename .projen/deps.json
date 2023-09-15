@@ -106,12 +106,12 @@
     },
     {
       "name": "@gammarer/aws-secure-bucket",
-      "version": "~0.12.4",
+      "version": "~0.13.0",
       "type": "peer"
     },
     {
       "name": "@gammarer/aws-secure-log-bucket",
-      "version": "~0.12.6",
+      "version": "~0.13.0",
       "type": "peer"
     },
     {
@@ -126,12 +126,12 @@
     },
     {
       "name": "@gammarer/aws-secure-bucket",
-      "version": "~0.12.4",
+      "version": "~0.13.0",
       "type": "runtime"
     },
     {
       "name": "@gammarer/aws-secure-log-bucket",
-      "version": "~0.12.6",
+      "version": "~0.13.0",
       "type": "runtime"
     }
   ],
