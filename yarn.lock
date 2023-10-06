@@ -359,17 +359,17 @@
   resolved "https://registry.yarnpkg.com/@eslint/js/-/js-8.50.0.tgz#9e93b850f0f3fa35f5fa59adfd03adae8488e484"
   integrity sha512-NCC3zz2+nvYd+Ckfh87rA47zfu2QsQpvc6k1yzTk+b9KzRj0wkGa8LSoGOXN6Zv4lRf/EIoZ80biDh9HOI+RNQ==
 
-"@gammarer/aws-secure-bucket@~0.13.0":
-  version "0.13.0"
-  resolved "https://registry.yarnpkg.com/@gammarer/aws-secure-bucket/-/aws-secure-bucket-0.13.0.tgz#8bd3a60f018145a6d3bf0bb4a1a010304c6066c5"
-  integrity sha512-bOdNgHW1fqWNLSFAPCCtzDkuvvpc2G9YdoZgD6SsBBDnJz20p9nhOM+GzGyipy+poPJ25eUM6r/xOVCgFN2JBQ==
+"@gammarer/aws-secure-bucket@~1.0.0":
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/@gammarer/aws-secure-bucket/-/aws-secure-bucket-1.0.0.tgz#98fc765a4f0bb0a5efc1d0696b163ef916467bd1"
+  integrity sha512-qs+JdGuckwZ39Ip9tHj+yw9gbZmxObR5Hv9Oi508SkKy+f8VeoXn5pVZGIuEXZvss4e3ob8RzTV+Xn0AqChvUw==
 
-"@gammarer/aws-secure-log-bucket@~0.13.0":
-  version "0.13.0"
-  resolved "https://registry.yarnpkg.com/@gammarer/aws-secure-log-bucket/-/aws-secure-log-bucket-0.13.0.tgz#a12fb5b7e87c5c35a125495230e263759e69f965"
-  integrity sha512-NKTJrIt8ShqDiX1owaMkDhcqufh37c+ZaheRwhCWs/bDVErx4ba7UHRc70Yd0ZktqemLdTkDzEV6D4vmKibS1Q==
+"@gammarer/aws-secure-log-bucket@~1.1.0":
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/@gammarer/aws-secure-log-bucket/-/aws-secure-log-bucket-1.1.0.tgz#7178b9c71ab7b576cf1c8061f6d58f75aa9848d6"
+  integrity sha512-X6yu51dGKME3uT9axqjiO+MYfbHvx+uriRt6hDN+AthqJrnMszO+G3C0a++WguyjDC/1xAga1iCisy2P8mpfog==
   dependencies:
-    "@gammarer/aws-secure-bucket" "~0.13.0"
+    "@gammarer/aws-secure-bucket" "~1.0.0"
 
 "@humanwhocodes/config-array@^0.11.11":
   version "0.11.11"
