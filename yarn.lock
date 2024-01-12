@@ -361,17 +361,15 @@
   resolved "https://registry.yarnpkg.com/@eslint/js/-/js-8.56.0.tgz#ef20350fec605a7f7035a01764731b2de0f3782b"
   integrity sha512-gMsVel9D7f2HLkBma9VbtzZRehRogVRfbr++f06nL2vnCGCNlzOD+/MUov/F4p8myyAHspEhVobgjpX64q5m6A==
 
-"@gammarer/aws-secure-bucket@~1.0.0":
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/@gammarer/aws-secure-bucket/-/aws-secure-bucket-1.0.0.tgz#98fc765a4f0bb0a5efc1d0696b163ef916467bd1"
-  integrity sha512-qs+JdGuckwZ39Ip9tHj+yw9gbZmxObR5Hv9Oi508SkKy+f8VeoXn5pVZGIuEXZvss4e3ob8RzTV+Xn0AqChvUw==
-
-"@gammarer/aws-secure-log-bucket@~1.1.0":
+"@gammarer/aws-secure-bucket@1.1.0":
   version "1.1.0"
-  resolved "https://registry.yarnpkg.com/@gammarer/aws-secure-log-bucket/-/aws-secure-log-bucket-1.1.0.tgz#7178b9c71ab7b576cf1c8061f6d58f75aa9848d6"
-  integrity sha512-X6yu51dGKME3uT9axqjiO+MYfbHvx+uriRt6hDN+AthqJrnMszO+G3C0a++WguyjDC/1xAga1iCisy2P8mpfog==
-  dependencies:
-    "@gammarer/aws-secure-bucket" "~1.0.0"
+  resolved "https://registry.yarnpkg.com/@gammarer/aws-secure-bucket/-/aws-secure-bucket-1.1.0.tgz#078b07a6dcf82603a36403dad286fac4b7824504"
+  integrity sha512-doMzfsQSJDGP11x1Nxsrumd0Dl5HqKhO5rm1K6nkgOEfzt1UaFBeTU/rEh4Rjk7kXe16uMYWWXZ4ct9mmlZDGA==
+
+"@gammarer/aws-secure-log-bucket@1.2.0":
+  version "1.2.0"
+  resolved "https://registry.yarnpkg.com/@gammarer/aws-secure-log-bucket/-/aws-secure-log-bucket-1.2.0.tgz#07072d625f0500dcc246219d6dde8b98d9e87e52"
+  integrity sha512-NzwxON0b9cLEaX+ily0wqxbhN6X+hUH7lV+aXCq7Yn1WrTUsqpRnsJLRbqgzQrMO17Dm/voZUIFJmIFYFyluzw==
 
 "@humanwhocodes/config-array@^0.11.13":
   version "0.11.14"
@@ -4480,12 +4478,7 @@ spdx-license-ids@^3.0.0:
   resolved "https://registry.yarnpkg.com/spdx-license-ids/-/spdx-license-ids-3.0.16.tgz#a14f64e0954f6e25cc6587bd4f392522db0d998f"
   integrity sha512-eWN+LnM3GR6gPu35WxNgbGl8rmY1AEmoMDvL/QD6zYmPWgywxWqJWNdLGT+ke8dKNWrcYgYjPpG5gbTfghP8rw==
 
-spdx-license-list@^6.6.0:
-  version "6.7.0"
-  resolved "https://registry.yarnpkg.com/spdx-license-list/-/spdx-license-list-6.7.0.tgz#dd8c6aba00e7a3f9549e473d0be2b83c4cae081f"
-  integrity sha512-NFqavuJxNsHdwSy/0PjmUpcc76XwlmHQRPjVVtE62qmSLhKJUnzSvJCkU9nrY6TsChfGU1xqGePriBkNtNRMiA==
-
-spdx-license-list@^6.8.0:
+spdx-license-list@^6.6.0, spdx-license-list@^6.8.0:
   version "6.8.0"
   resolved "https://registry.yarnpkg.com/spdx-license-list/-/spdx-license-list-6.8.0.tgz#92a99cd6c8b97fe98ae83c54deaffd4d9d503f74"
   integrity sha512-5UdM7r9yJ1EvsPQZWfa41AZjLQngl9iMMysm9XBW7Lqhq7aF8cllfqjS+rFCHB8FFMGSM0yFWue2LUV9mR0QzQ==
@@ -4897,9 +4890,9 @@ typescript@5.1.x, typescript@~5.1.6:
   integrity sha512-zaWCozRZ6DLEWAWFrVDz1H6FVXzUSfTy5FUMWsQlU8Ym5JP9eO4xkTIROFCQvhQf61z6O/G6ugw3SgAnvvm+HA==
 
 typescript@next:
-  version "5.3.0-dev.20230823"
-  resolved "https://registry.yarnpkg.com/typescript/-/typescript-5.3.0-dev.20230823.tgz#ce99562b71b94c095bbc6de01f4f80eb65edd1e4"
-  integrity sha512-IEFfTl67UgTTJzf+Ma4+0txDKzxzxtjNjyFjTm7c+yP5sff+atKe44mAjhCxX8wGjwRrFuhAUeHz1udmzBZ4ow==
+  version "5.4.0-dev.20240111"
+  resolved "https://registry.yarnpkg.com/typescript/-/typescript-5.4.0-dev.20240111.tgz#96a994ecbb1720d15c3a09d3659497009c97049e"
+  integrity sha512-97UgxVdlXJau9HbNNYghxWHaauDT+50ioh3mepeOfOec6Eq2Hsc4ivTg+N4o4sfVF4MNBJ7rYrejqDvhhrE6aw==
 
 typescript@~3.9.10:
   version "3.9.10"
