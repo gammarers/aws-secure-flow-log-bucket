@@ -15,9 +15,8 @@ const project = new awscdk.AwsCdkConstructLibrary({
   repositoryUrl: 'https://github.com/gammarer/aws-secure-flow-log-bucket.git',
   majorVersion: 1,
   npmAccess: javascript.NpmAccess.PUBLIC,
-  devDeps: [
+  deps: [
     '@gammarer/aws-secure-log-bucket@~1.2.0',
-    '@gammarer/aws-secure-bucket@~1.1.0',
   ],
   peerDeps: [
     '@gammarer/aws-secure-log-bucket@~1.2.0',
