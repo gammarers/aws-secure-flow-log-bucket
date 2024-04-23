@@ -1,9 +1,9 @@
 {
-  "name": "@gammarer/aws-secure-flow-log-bucket",
+  "name": "@gammarers/aws-secure-flow-log-bucket",
   "description": "Specific AWS VPC FlowLog Bucket",
   "repository": {
     "type": "git",
-    "url": "https://github.com/gammarer/aws-secure-flow-log-bucket.git"
+    "url": "https://github.com/gammarers/aws-secure-flow-log-bucket.git"
   },
   "scripts": {
     "build": "npx projen build",
