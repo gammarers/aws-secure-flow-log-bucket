@@ -35,8 +35,8 @@ const project = new awscdk.AwsCdkConstructLibrary({
     allowedUsernames: ['yicr'],
   },
   publishToPypi: {
-    distName: 'gammarer.aws-secure-flow-log-bucket',
-    module: 'gammarer.aws_secure_flow_log_bucket',
+    distName: 'gammarers.aws-secure-flow-log-bucket',
+    module: 'gammarers.aws_secure_flow_log_bucket',
   },
   publishToMaven: {
     mavenGroupId: 'com.gammarer',
