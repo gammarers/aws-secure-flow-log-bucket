@@ -8,19 +8,19 @@ const project = new awscdk.AwsCdkConstructLibrary({
   typescriptVersion: '5.2.x',
   jsiiVersion: '5.2.x',
   defaultReleaseBranch: 'main',
-  name: '@gammarer/aws-secure-flow-log-bucket',
+  name: '@gammarers/aws-secure-flow-log-bucket',
   description: 'Specific AWS VPC FlowLog Bucket',
   keywords: ['aws', 'cdk', 'aws-cdk', 's3', 'bucket', 'vpc', 'flow'],
   projenrcTs: true,
-  repositoryUrl: 'https://github.com/gammarer/aws-secure-flow-log-bucket.git',
+  repositoryUrl: 'https://github.com/gammarers/aws-secure-flow-log-bucket.git',
   majorVersion: 1,
   npmAccess: javascript.NpmAccess.PUBLIC,
   deps: [
-    '@gammarer/aws-secure-log-bucket@~1.2.0',
+    '@gammarers/aws-secure-log-bucket@~1.6.0',
   ],
   peerDeps: [
-    '@gammarer/aws-secure-log-bucket@~1.2.0',
-    '@gammarer/aws-secure-bucket@~1.1.0',
+    '@gammarers/aws-secure-log-bucket@~1.6.0',
+    '@gammarers/aws-secure-bucket@~1.3.1',
   ],
   minNodeVersion: '16.0.0',
   workflowNodeVersion: '18.17.1',
@@ -35,18 +35,12 @@ const project = new awscdk.AwsCdkConstructLibrary({
     allowedUsernames: ['yicr'],
   },
   publishToPypi: {
-    distName: 'gammarer.aws-secure-flow-log-bucket',
-    module: 'gammarer.aws_secure_flow_log_bucket',
-  },
-  publishToMaven: {
-    mavenGroupId: 'com.gammarer',
-    javaPackage: 'com.gammarer.cdk.aws.secure_flow_log_bucket',
-    mavenArtifactId: 'aws-secure-flow-log-bucket',
-    mavenEndpoint: 'https://s01.oss.sonatype.org',
+    distName: 'gammarers.aws-secure-flow-log-bucket',
+    module: 'gammarers.aws_secure_flow_log_bucket',
   },
   publishToNuget: {
-    dotNetNamespace: 'Gammarer.CDK.AWS',
-    packageId: 'Gammarer.CDK.AWS.SecureFlowLogBucket',
+    dotNetNamespace: 'Gammarers.CDK.AWS',
+    packageId: 'Gammarers.CDK.AWS.SecureFlowLogBucket',
   },
 });
 project.synth();

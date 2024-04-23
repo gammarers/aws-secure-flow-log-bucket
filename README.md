@@ -1,14 +1,13 @@
 # AWS Secure Flow Log Bucket
 
-[![GitHub](https://img.shields.io/github/license/gammarer/aws-secure-flow-log-bucket?style=flat-square)](https://github.com/gammarer/aws-secure-flow-log-bucket/blob/main/LICENSE)
-[![npm (scoped)](https://img.shields.io/npm/v/@gammarer/aws-secure-flow-log-bucket?style=flat-square)](https://www.npmjs.com/package/@gammarer/aws-secure-flow-log-bucket)
-[![PyPI](https://img.shields.io/pypi/v/gammarer.aws-secure-flow-log-bucket?style=flat-square)](https://pypi.org/project/gammarer.aws-secure-flow-log-bucket/)
-[![Nuget](https://img.shields.io/nuget/v/Gammarer.CDK.AWS.SecureFlowLogBucket?style=flat-square)](https://www.nuget.org/packages/Gammarer.CDK.AWS.SecureFlowLogBucket/)
-[![Sonatype Nexus (Releases)](https://img.shields.io/nexus/r/com.gammarer/aws-secure-flow-log-bucket?server=https%3A%2F%2Fs01.oss.sonatype.org%2F&style=flat-square)](https://s01.oss.sonatype.org/content/repositories/releases/com/gammarer/aws-secure-flow-log-bucket/)
-[![GitHub Workflow Status (branch)](https://img.shields.io/github/actions/workflow/status/gammarer/aws-secure-flow-log-bucket/release.yml?branch=main&label=release&style=flat-square)](https://github.com/gammarer/aws-secure-flow-log-bucket/actions/workflows/release.yml)
-[![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/gammarer/aws-secure-flow-log-bucket?sort=semver&style=flat-square)](https://github.com/gammarer/aws-secure-flow-log-bucket/releases)
+[![GitHub](https://img.shields.io/github/license/gammarers/aws-secure-flow-log-bucket?style=flat-square)](https://github.com/gammarers/aws-secure-flow-log-bucket/blob/main/LICENSE)
+[![npm (scoped)](https://img.shields.io/npm/v/@gammarers/aws-secure-flow-log-bucket?style=flat-square)](https://www.npmjs.com/package/@gammarers/aws-secure-flow-log-bucket)
+[![PyPI](https://img.shields.io/pypi/v/gammarers.aws-secure-flow-log-bucket?style=flat-square)](https://pypi.org/project/gammarers.aws-secure-flow-log-bucket/)
+[![Nuget](https://img.shields.io/nuget/v/gammarers.CDK.AWS.SecureFlowLogBucket?style=flat-square)](https://www.nuget.org/packages/Gammarers.CDK.AWS.SecureFlowLogBucket/)
+[![GitHub Workflow Status (branch)](https://img.shields.io/github/actions/workflow/status/gammarers/aws-secure-flow-log-bucket/release.yml?branch=main&label=release&style=flat-square)](https://github.com/gammarers/aws-secure-flow-log-bucket/actions/workflows/release.yml)
+[![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/gammarers/aws-secure-flow-log-bucket?sort=semver&style=flat-square)](https://github.com/gammarers/aws-secure-flow-log-bucket/releases)
 
-[![View on Construct Hub](https://constructs.dev/badge?package=@gammarer/aws-secure-flow-log-bucket)](https://constructs.dev/packages/@gammarer/aws-secure-flow-log-bucket)
+[![View on Construct Hub](https://constructs.dev/badge?package=@gammarers/aws-secure-flow-log-bucket)](https://constructs.dev/packages/@gammarers/aws-secure-flow-log-bucket)
 
 Specific AWS VPC FlowLog Bucket
 
@@ -17,42 +16,31 @@ Specific AWS VPC FlowLog Bucket
 ### TypeScript
 
 ```shell
-npm install @gammarer/aws-secure-flow-log-bucket
+npm install @gammarers/aws-secure-flow-log-bucket
 # or
-yarn add @gammarer/aws-secure-flow-log-bucket
+yarn add @gammarers/aws-secure-flow-log-bucket
 ```
 
 ### Python
 
 ```shell
-pip install gammarer.aws-secure-flow-log-bucket
+pip install gammarers.aws-secure-flow-log-bucket
 ```
 
 ### C# / .NET
 
 ```shell
-dotnet add package Gammarer.CDK.AWS.SecureFlowLogBucket
-```
-
-### Java
-
-Add the following to pom.xml:
-
-```xml
-<dependency>
-  <groupId>com.gammarer</groupId>
-  <artifactId>aws-secure-flow-log-bucket</artifactId>
-</dependency>
+dotnet add package Gammarers.CDK.AWS.SecureFlowLogBucket
 ```
 
 ## Example
 
 ```shell
-npm install @gammarer/aws-secure-flow-log-bucket
+npm install @gammarers/aws-secure-flow-log-bucket
 ```
 
 ```typescript
-import { SecureFlowLogBucket } from '@gammarer/aws-secure-flow-log-bucket';
+import { SecureFlowLogBucket } from '@gammarers/aws-secure-flow-log-bucket';
 
 const bucket = new SecureFlowLogBucket(stack, 'SecureFlowLogBucket', {
   keyPrefixes: [
