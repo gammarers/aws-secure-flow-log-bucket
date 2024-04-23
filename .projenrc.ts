@@ -39,8 +39,8 @@ const project = new awscdk.AwsCdkConstructLibrary({
     module: 'gammarers.aws_secure_flow_log_bucket',
   },
   publishToNuget: {
-    dotNetNamespace: 'Gammarer.CDK.AWS',
-    packageId: 'Gammarer.CDK.AWS.SecureFlowLogBucket',
+    dotNetNamespace: 'Gammarers.CDK.AWS',
+    packageId: 'Gammarers.CDK.AWS.SecureFlowLogBucket',
   },
 });
 project.synth();
