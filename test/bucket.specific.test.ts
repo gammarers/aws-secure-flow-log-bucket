@@ -34,7 +34,7 @@ describe('SecureFlowLogBucket Testing', () => {
         ServerSideEncryptionConfiguration: [
           {
             ServerSideEncryptionByDefault: {
-              SSEAlgorithm: 'aws:kms',
+              SSEAlgorithm: 'AES256',
             },
           },
         ],
