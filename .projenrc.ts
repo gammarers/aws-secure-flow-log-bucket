@@ -33,7 +33,7 @@ const project = new awscdk.AwsCdkConstructLibrary({
   },
   autoApproveOptions: {
     secret: 'GITHUB_TOKEN',
-    allowedUsernames: ['yicr'],
+    allowedUsernames: ['yicr', 'Yicr'],
   },
   publishToPypi: {
     distName: 'gammarers.aws-secure-flow-log-bucket',
