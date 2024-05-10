@@ -1905,9 +1905,9 @@ downlevel-dts@^0.11.0:
     typescript next
 
 electron-to-chromium@^1.4.668:
-  version "1.4.759"
-  resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.4.759.tgz#ed7f4d9eed25124708ab0f4422e66b16534648d3"
-  integrity sha512-qZJc+zsuI+/5UjOSFnpkJBwwLMH1AZgyKqJ7LUNnRsB7v/cDjMu9DvXgp9kH6PTTZxjnPXGp2Uhurw+2Ll4Hjg==
+  version "1.4.760"
+  resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.4.760.tgz#1d3c10805644ff2b43ceb467482fb9754412b730"
+  integrity sha512-xF6AWMVM/QGQseTPgXjUewfNjCW2fgUcV/z5cSG0r+SiYcgtvcmRAL3oH/MSZwHBBD+fyKTXdQ4qGENJMSedEQ==
 
 emittery@^0.13.1:
   version "0.13.1"
@@ -3373,7 +3373,7 @@ jsesc@^2.5.1:
   resolved "https://registry.yarnpkg.com/jsesc/-/jsesc-2.5.2.tgz#80564d2e483dacf6e8ef209650a67df3f0c283a4"
   integrity sha512-OYu7XEzjkCQ3C5Ps3QIZsQfNpqoJyZZA99wd9aWd05NCtC5pWOkShK2mkL6HXQR6/Cy2lbNdPlZBpuQHXE63gA==
 
-jsii-diff@^1.97.0:
+jsii-diff@^1.98.0:
   version "1.98.0"
   resolved "https://registry.yarnpkg.com/jsii-diff/-/jsii-diff-1.98.0.tgz#ea6a661cb4687fe29c10bf52020d0229eb9491d8"
   integrity sha512-jyRhxkEehIt/zK3xeGbIlb0m2f+G1dZxbyQ7DB4iHOHPcgx6SPiRIzhGnbN/EnB7dQ1hAk0vFzvFryiM6TmUAQ==
@@ -3385,7 +3385,7 @@ jsii-diff@^1.97.0:
     log4js "^6.9.1"
     yargs "^16.2.0"
 
-jsii-docgen@^10.4.1:
+jsii-docgen@^10.4.7:
   version "10.4.7"
   resolved "https://registry.yarnpkg.com/jsii-docgen/-/jsii-docgen-10.4.7.tgz#deda7b8edb4174b70fccb1ae99116dca9503ef28"
   integrity sha512-jTrFN6kkoCnW1pDs+j0ivX6kqx+GQBuoAIgT6PTOWMO/Yaf8WjB2z2lrwLNhbCmvlKnwIxJ/0XpG7duPE9mJ0w==
@@ -3399,7 +3399,7 @@ jsii-docgen@^10.4.1:
     semver "^7.6.1"
     yargs "^16.2.0"
 
-jsii-pacmak@^1.97.0:
+jsii-pacmak@^1.98.0:
   version "1.98.0"
   resolved "https://registry.yarnpkg.com/jsii-pacmak/-/jsii-pacmak-1.98.0.tgz#4c6cb2a24d449a308c23fa4d7a7d6506384fc2ec"
   integrity sha512-p2H8IbiI3RNIUg+oRcJ9Xu1I7CgJUxCMpUl5IPzWAjz1qzhIKOzlkaAMGJfJZJQtib5kWI2OmZ6xBZScWg16+Q==
@@ -4107,7 +4107,7 @@ process-nextick-args@~2.0.0:
   resolved "https://registry.yarnpkg.com/process-nextick-args/-/process-nextick-args-2.0.1.tgz#7820d9b16120cc55ca9ae7792680ae7dba6d7fe2"
   integrity sha512-3ouUOpQhtgrbOa17J7+uxOTpITYWaGP7/AhoR3+A+/1e9skrzelGi/dXzEYyvbxubEF6Wn2ypscTKiKJFFn1ag==
 
-projen@^0.81.1:
+projen@^0.81.8:
   version "0.81.8"
   resolved "https://registry.yarnpkg.com/projen/-/projen-0.81.8.tgz#eb8e289977267fa5fc73c46d38d387ad4479f558"
   integrity sha512-Y3CtD+09qPhI+Res0r229CFWaXS0HlrWs8BbxG/NgoJJniRLLkfQG7W5hLOqMa3plBpwPJOyldTKbPOhHo5JrA==
