@@ -15,10 +15,25 @@ Specific AWS VPC FlowLog Bucket
 
 ### TypeScript
 
+#### install by npm
+
 ```shell
 npm install @gammarers/aws-secure-flow-log-bucket
-# or
+```
+#### install by yarn
+
+```shell
 yarn add @gammarers/aws-secure-flow-log-bucket
+```
+#### install by pnpm
+
+```shell
+pnpm add @gammarers/aws-secure-flow-log-bucket
+```
+#### install by bun
+
+```shell
+bun add @gammarers/aws-secure-flow-log-bucket
 ```
 
 ### Python
