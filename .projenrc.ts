@@ -16,12 +16,12 @@ const project = new awscdk.AwsCdkConstructLibrary({
   majorVersion: 1,
   npmAccess: javascript.NpmAccess.PUBLIC,
   deps: [
-    '@gammarers/aws-secure-log-bucket@~1.6.3',
-    '@gammarers/aws-secure-bucket@~1.3.1',
+    '@gammarers/aws-secure-log-bucket@~1.7.0',
+    '@gammarers/aws-secure-bucket@~1.4.1',
   ],
   peerDeps: [
-    '@gammarers/aws-secure-log-bucket@~1.6.3',
-    '@gammarers/aws-secure-bucket@~1.3.1',
+    '@gammarers/aws-secure-log-bucket@~1.7.0',
+    '@gammarers/aws-secure-bucket@~1.4.1',
   ],
   minNodeVersion: '16.0.0',
   workflowNodeVersion: '18.17.1',
