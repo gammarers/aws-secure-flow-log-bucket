@@ -24,7 +24,7 @@ const project = new awscdk.AwsCdkConstructLibrary({
     '@gammarers/aws-secure-bucket@~1.4.1',
   ],
   minNodeVersion: '16.0.0',
-  workflowNodeVersion: '18.17.1',
+  workflowNodeVersion: '22.x',
   depsUpgradeOptions: {
     workflowOptions: {
       labels: ['auto-approve', 'auto-merge'],
